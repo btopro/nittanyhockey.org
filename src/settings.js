@@ -36,7 +36,7 @@ module.exports = () => {
     // within the app directory you won't be able to use
     // a public CDN
     if (process.env.HAXCMS_CDN) {
-      cdnBase = "https://cdn.waxam.io/";
+      cdnBase = "https://cdn.waxam.io";
       cdnPart = "/"; // /
     }
     // current year if desired
@@ -44,17 +44,16 @@ module.exports = () => {
     var basePath = "/";
     // useful with github exclusively
     var segmentCount = 1;
+    // when building for vercel, use that path
+    if (process.env.VERCEL) {
+        // change these if you have a custom domain
+        url = `https://${process.env.VERCEL_URL}`;
+    }
     // if the repo has a CNAME, use this for the url
-    if (process.env.CNAME && process.env.CNAME != "") {
+    else if (process.env.CNAME && process.env.CNAME != "") {
         url = process.env.CNAME;
         // set this to 0 if you have a vanity URL
         segmentCount = 0;
-    }
-    // when building for vercel, use that path
-    else if (process.env.VERCEL) {
-        // change these if you have a custom domain
-        basePath = `/`;
-        url = `https://${process.env.VERCEL_URL}`;
     }
     // when building for production, we form a github based path
     else if (process.env.HAXCMS_GITHUB) {
