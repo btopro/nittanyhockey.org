@@ -5,9 +5,9 @@ module.exports = () => {
     // will most likley want to change designated
     // github organization / username
     // github.com/WHATEVER
-    var gitOrg = "elmsln";
+    var gitOrg = "btopro";
     // github.com/elmsln/WHATEVER - hax11ty here implies building against the repo itself to produce it's own docs :)
-    var gitProject = "hax11ty";
+    var gitProject = "nittanyhockey.org";
     // if doing github builds, automatically set these to whatever the repo issuing the call is
     // the above is just for SOME default so things below publish correctly locally
     if (process.env.GITHUB_REPOSITORY) {
@@ -17,7 +17,7 @@ module.exports = () => {
     }
     // author name will be set by the github publishing agent based on who kicks it off
     var authorName = "btopro";
-    var siteAuthorImage = "files/headshot511743.1799999904.jpg";
+    var siteAuthorImage = "files/photos/215509_188370631209487_4050306_n.jpg";
     // person kicking off the job gets author name by default
     if (process.env.GITHUB_ACTOR) {
         authorName = process.env.GITHUB_ACTOR;
@@ -36,8 +36,8 @@ module.exports = () => {
     // within the app directory you won't be able to use
     // a public CDN
     if (process.env.HAXCMS_CDN) {
-      cdnBase = "https://cdn.webcomponents.psu.edu"; // https://cdn.waxam.io/
-      cdnPart = "/cdn/"; // /
+      cdnBase = "https://cdn.waxam.io/";
+      cdnPart = "/"; // /
     }
     // current year if desired
     var year = new Date().getFullYear();
@@ -72,13 +72,13 @@ module.exports = () => {
         // optional twitter handle
         twitterName: "",
         // short description of the site for SEO
-        siteDescription: "project documentation",
+        siteDescription: "Nittany hockey league",
         // logo to represent the site
         siteLogo: "assets/images/photo-1497493292307-31c376b6e479.jpeg",
         // theme to use HAXcms valid theme as it appears in the wc-factory listing
-        themeElement: "clean-two", // clean-two, clean-one, bootstrap-theme, learn-two-theme, or any other valid HAXcms theme
+        themeElement: "clean-one", // clean-two, clean-one, bootstrap-theme, learn-two-theme, or any other valid HAXcms theme
         // path to the entryway for the theme file. Not required but improves load times to have this for preloading
-        themePath: "@lrnwebcomponents/clean-two/clean-two.js", // @lrnwebcomponents/clean-two/clean-two.js, @lrnwebcomponents/learn-two-theme/learn-two-theme.js, or any other valid HAXcms theme path
+        themePath: "@lrnwebcomponents/clean-one/clean-one.js", // @lrnwebcomponents/clean-two/clean-two.js, @lrnwebcomponents/learn-two-theme/learn-two-theme.js, or any other valid HAXcms theme path
         // banner image used in your theme
         themeImage: "assets/banner.jpg",
         // a HEX color code to represent / accent your theme
@@ -86,7 +86,7 @@ module.exports = () => {
         // icon name if the theme uses one
         themeLogo: "lrn:network",
         // general theme color
-        themeColor: "green",
+        themeColor: "blue",
         // CC license, see https://creativecommons.org/licenses/ for a list
         siteLicense: "by-sa",
         // folder / machine name to represent your site

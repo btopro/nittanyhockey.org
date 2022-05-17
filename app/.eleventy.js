@@ -33,6 +33,7 @@ module.exports = function (eleventyConfig) {
 
   // copy these but don't process them
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("files");
   eleventyConfig.addPassthroughCopy({
     "theme": "theme",
     "custom": "custom",
