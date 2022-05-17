@@ -15,13 +15,11 @@
     "crypto": "1.0.1",
     "eleventy-xml-plugin": "0.1.0",
     "fs-extra": "8.1.0",
-    "gray-matter": "4.0.2"
+    "gray-matter": "4.0.2",
+    "es-module-shims": "^0.4.6",
+    "pnpm": "7.1.0"
   },
   "resolutions": {
     "browserslist": "4.20.2"
-  },
-  "dependencies": {
-    "es-module-shims": "^0.4.6",
-    "pnpm": "7.1.0"
   }
 }

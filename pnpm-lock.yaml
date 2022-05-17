@@ -14,18 +14,16 @@ specifiers:
   gray-matter: 4.0.2
   pnpm: 7.1.0
 
-dependencies:
-  es-module-shims: 0.4.7
-  pnpm: 7.1.0
-
 devDependencies:
   '@11ty/eleventy-plugin-rss': 1.0.7
   '@haxcms/11ty': 0.0.13
   browserslist: 4.20.2
   crypto: 1.0.1
   eleventy-xml-plugin: 0.1.0
+  es-module-shims: 0.4.7
   fs-extra: 8.1.0
   gray-matter: 4.0.2
+  pnpm: 7.1.0
 
 packages:
 
@@ -2889,6 +2887,7 @@ packages:
 
   /es-module-shims/0.4.7:
     resolution: {integrity: sha512-0LTiSQoPWwdcaTVIQXhGlaDwTneD0g9/tnH1PNs3zHFFH+xoCeJclDM3rQeqF9nurXPfMKm3l9+kfPRa5VpbKg==}
+    dev: true
 
   /escalade/3.1.1:
     resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
@@ -4216,7 +4215,7 @@ packages:
     resolution: {integrity: sha512-iT2Hk2jycfh8NXoEnwpg7oCNMwsMlheSR9QAgkhWtRHvjfAAtp0HsKEOA62ILoAwbvv/ea8Ph5lTQLsGQJRq+w==}
     engines: {node: '>=14.19'}
     hasBin: true
-    dev: false
+    dev: true
 
   /polyfills-loader/1.7.6:
     resolution: {integrity: sha512-AiLIgmGFmzcvsqewyKsqWb7H8CnWNTSQBoM0u+Mauzmp0DsjObXmnZdeqvTn0HNwc1wYHHTOta82WjSjG341eQ==}
