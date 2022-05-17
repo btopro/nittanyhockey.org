@@ -1,7 +1,8 @@
 ---
-title: May/June '22 schedule
+title: Home
 order: 1
 ---
+<h2>May/June '22 schedule</h2>
 <ul>
   <li><a href="files/schedule/NHL_MayJune2022_v5.xlsx" target="_blank">Schedule v5 (XLSX)</a></li>
   <li><a href="files/schedule/NHL_MayJune2022_v5.pdf" target="_blank">Schedule v5 (PDF)</a></li>

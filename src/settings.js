@@ -81,9 +81,9 @@ module.exports = () => {
         // logo to represent the site
         siteLogo: "files/162384483_244646790527009_5549879116232597054_n.jpg",
         // theme to use HAXcms valid theme as it appears in the wc-factory listing
-        themeElement: "clean-one", // clean-two, clean-one, bootstrap-theme, learn-two-theme, or any other valid HAXcms theme
+        themeElement: "clean-two", // clean-two, clean-one, bootstrap-theme, learn-two-theme, or any other valid HAXcms theme
         // path to the entryway for the theme file. Not required but improves load times to have this for preloading
-        themePath: "@lrnwebcomponents/clean-one/clean-one.js", // @lrnwebcomponents/clean-two/clean-two.js, @lrnwebcomponents/learn-two-theme/learn-two-theme.js, or any other valid HAXcms theme path
+        themePath: "@lrnwebcomponents/clean-two/clean-two.js", // @lrnwebcomponents/clean-two/clean-two.js, @lrnwebcomponents/learn-two-theme/learn-two-theme.js, or any other valid HAXcms theme path
         // banner image used in your theme
         themeImage: "files/162384483_244646790527009_5549879116232597054_n.jpg",
         // a HEX color code to represent / accent your theme
