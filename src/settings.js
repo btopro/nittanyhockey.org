@@ -50,6 +50,12 @@ module.exports = () => {
         // set this to 0 if you have a vanity URL
         segmentCount = 0;
     }
+    // when building for vercel, use that path
+    else if (process.env.VERCEL) {
+        // change these if you have a custom domain
+        basePath = `/`;
+        url = `https://${process.env.VERCEL_URL}`;
+    }
     // when building for production, we form a github based path
     else if (process.env.HAXCMS_GITHUB) {
         // change these if you have a custom domain
@@ -74,15 +80,15 @@ module.exports = () => {
         // short description of the site for SEO
         siteDescription: "Nittany hockey league",
         // logo to represent the site
-        siteLogo: "assets/images/photo-1497493292307-31c376b6e479.jpeg",
+        siteLogo: "files/162384483_244646790527009_5549879116232597054_n.jpg",
         // theme to use HAXcms valid theme as it appears in the wc-factory listing
         themeElement: "clean-one", // clean-two, clean-one, bootstrap-theme, learn-two-theme, or any other valid HAXcms theme
         // path to the entryway for the theme file. Not required but improves load times to have this for preloading
         themePath: "@lrnwebcomponents/clean-one/clean-one.js", // @lrnwebcomponents/clean-two/clean-two.js, @lrnwebcomponents/learn-two-theme/learn-two-theme.js, or any other valid HAXcms theme path
         // banner image used in your theme
-        themeImage: "assets/banner.jpg",
+        themeImage: "files/162384483_244646790527009_5549879116232597054_n.jpg",
         // a HEX color code to represent / accent your theme
-        themeHexCode: "#55FF55",
+        themeHexCode: "#5555FF",
         // icon name if the theme uses one
         themeLogo: "lrn:network",
         // general theme color
