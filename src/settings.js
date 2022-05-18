@@ -48,6 +48,8 @@ module.exports = () => {
     if (process.env.VERCEL) {
         // change these if you have a custom domain
         url = `https://${process.env.VERCEL_URL}`;
+        // set this to 0 if you have a vanity URL
+        segmentCount = 0;
     }
     // if the repo has a CNAME, use this for the url
     else if (process.env.CNAME && process.env.CNAME != "") {
