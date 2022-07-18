@@ -9,12 +9,11 @@ specifiers:
   '@oclif/plugin-help': 5.1.12
   browserslist: 4.20.2
   crypto: 1.0.1
-  eleventy: 1.0.6
   eleventy-xml-plugin: 0.1.0
   es-module-shims: ^0.4.6
   fs-extra: 8.1.0
   gray-matter: 4.0.2
-  pnpm: 7.1.0
+  pnpm: 6.33.1
 
 devDependencies:
   '@11ty/eleventy-plugin-rss': 1.0.7
@@ -22,12 +21,11 @@ devDependencies:
   '@oclif/plugin-help': 5.1.12
   browserslist: 4.20.2
   crypto: 1.0.1
-  eleventy: 1.0.6
   eleventy-xml-plugin: 0.1.0
   es-module-shims: 0.4.7
   fs-extra: 8.1.0
   gray-matter: 4.0.2
-  pnpm: 7.1.0
+  pnpm: 6.33.1
 
 packages:
 
@@ -2866,11 +2864,6 @@ packages:
       html-entities: 1.4.0
     dev: true
 
-  /eleventy/1.0.6:
-    resolution: {integrity: sha512-IzaPK0P5eF/jm5qdOzrzq2947FFRKpZwHT8AR1WpGI4tTpkLnzwQF02p9m0o5XQQ4dypBExp69fUHViEiHUWpQ==}
-    requiresBuild: true
-    dev: true
-
   /emoji-regex/8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
     dev: true
@@ -4425,9 +4418,9 @@ packages:
       semver-compare: 1.0.0
     dev: true
 
-  /pnpm/7.1.0:
-    resolution: {integrity: sha512-iT2Hk2jycfh8NXoEnwpg7oCNMwsMlheSR9QAgkhWtRHvjfAAtp0HsKEOA62ILoAwbvv/ea8Ph5lTQLsGQJRq+w==}
-    engines: {node: '>=14.19'}
+  /pnpm/6.33.1:
+    resolution: {integrity: sha512-A19nDMOesyc5AjgXbtNk5ILRvwd51OPEn3RDfJgw/YwtNBTHeZmHCftz4b8Ri3rsqANhH04V5kiqyERpYohBxA==}
+    engines: {node: '>=12.17'}
     hasBin: true
     dev: true
 

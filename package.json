@@ -13,11 +13,10 @@
     "browserslist": "4.20.2",
     "crypto": "1.0.1",
     "eleventy-xml-plugin": "0.1.0",
-    "eleventy": "1.0.6",
     "fs-extra": "8.1.0",
     "gray-matter": "4.0.2",
     "es-module-shims": "^0.4.6",
-    "pnpm": "7.1.0",
+    "pnpm": "6.33.1",
     "@oclif/plugin-help": "5.1.12"
   },
   "resolutions": {
