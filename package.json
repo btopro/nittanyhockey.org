@@ -16,7 +16,8 @@
     "fs-extra": "8.1.0",
     "gray-matter": "4.0.2",
     "es-module-shims": "^0.4.6",
-    "pnpm": "7.1.0"
+    "pnpm": "7.1.0",
+    "@oclif/plugin-help": "5.1.12"
   },
   "resolutions": {
     "browserslist": "4.20.2"
