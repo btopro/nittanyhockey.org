@@ -9,6 +9,7 @@ specifiers:
   '@oclif/plugin-help': 5.1.12
   browserslist: 4.20.2
   crypto: 1.0.1
+  eleventy: 1.0.6
   eleventy-xml-plugin: 0.1.0
   es-module-shims: ^0.4.6
   fs-extra: 8.1.0
@@ -21,6 +22,7 @@ devDependencies:
   '@oclif/plugin-help': 5.1.12
   browserslist: 4.20.2
   crypto: 1.0.1
+  eleventy: 1.0.6
   eleventy-xml-plugin: 0.1.0
   es-module-shims: 0.4.7
   fs-extra: 8.1.0
@@ -2862,6 +2864,11 @@ packages:
     resolution: {integrity: sha512-hb8XF8GT0PkuNX99+878s4WqfCvtzSMDm3RHXvWRtK6VEyRQGewRigU6+tRhId7EGE9V6f2CFXb356XPAeQQTg==}
     dependencies:
       html-entities: 1.4.0
+    dev: true
+
+  /eleventy/1.0.6:
+    resolution: {integrity: sha512-IzaPK0P5eF/jm5qdOzrzq2947FFRKpZwHT8AR1WpGI4tTpkLnzwQF02p9m0o5XQQ4dypBExp69fUHViEiHUWpQ==}
+    requiresBuild: true
     dev: true
 
   /emoji-regex/8.0.0:
