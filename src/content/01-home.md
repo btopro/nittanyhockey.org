@@ -2,8 +2,10 @@
 title: League schedule
 order: 1
 ---
-<iframe src="files/schedule/NHL_JulyAugust2022_v4.pdf" width="100%" height="500px" fetchpriority="high" title="League Schedule PDF"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=nittanyhockeypa%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 <p>
+  <a style="font-weight:bold; font-size:20px;" href="https://calendar.google.com/calendar/embed?src=nittanyhockeypa%40gmail.com&ctz=America%2FNew_York" target="_blank">Google Calendar</a>
+  <br/>
   <a style="font-weight:bold; font-size:20px;" href="files/schedule/NHL_JulyAugust2022_v4.xlsx" target="_blank">July / August Schedule v4 (XLSX)</a>
   <br/>
   <a style="font-weight:bold; font-size:20px;" href="files/schedule/NHL_JulyAugust2022_v4.pdf" target="_blank">July / August Schedule v4 (PDF)</a>
