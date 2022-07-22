@@ -6,9 +6,9 @@ order: 1
 <p>
   <a style="font-weight:bold; font-size:20px;" href="https://calendar.google.com/calendar/embed?src=nittanyhockeypa%40gmail.com&ctz=America%2FNew_York" target="_blank">Google Calendar</a>
   <br/>
-  <a style="font-weight:bold; font-size:20px;" href="files/schedule/NHL_JulyAugust2022_v4.xlsx" target="_blank">July / August Schedule v4 (XLSX)</a>
+  <a style="font-weight:bold; font-size:20px;" href="files/schedule/NHL_JulyAugust2022_v20220720.xlsx" target="_blank">July / August Schedule v4 (XLSX)</a>
   <br/>
-  <a style="font-weight:bold; font-size:20px;" href="files/schedule/NHL_JulyAugust2022_v4.pdf" target="_blank">July / August Schedule v4 (PDF)</a>
+  <a style="font-weight:bold; font-size:20px;" href="files/schedule/NHL_JulyAugust2022_v20220720.pdf" target="_blank">July / August Schedule v4 (PDF)</a>
 </p>
 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100049450693787&tabs&width=500&height=70&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=561557207198760" width="500px" height="70px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" loading="lazy" fetchpriority="low" title="Nittany hockey Facebook page"></iframe>
 <md-block markdown="
