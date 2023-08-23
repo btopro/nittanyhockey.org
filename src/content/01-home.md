@@ -3,7 +3,7 @@ title: League schedule
 order: 1
 ---
 <p>
-<a href="https://forms.gle/K6kwnqkXhhmjGrx46">Summer 2023 Registration</a>
+<a href="https://nittanyhockey.sportngin.com/">Fall 2023 Registration</a>
 </p>
 <iframe src="https://calendar.google.com/calendar/embed?src=nittanyhockeypa%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 <p>
